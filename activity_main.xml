@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffb3b3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Michi's Minicakes"
+        android:fontFamily="casual"
+        android:textColor="#cc0000"
+        android:textStyle="bold"
+        android:textSize='30sp'
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Serving the most scrumptious minicakes in town!"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:textSize="15sp"/>
+
+
+    <ImageView
+        android:id="@+id/my_logo"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:scaleType="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cupcake"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:text="Hours: 10AM-7PM"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:textSize="15sp"
+        android:text="Open Sun-Sat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:textSize="15sp"
+        android:text="512-148-1030"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:textSize="15sp"
+        android:text="1042 Icing Lane\n SugarLand, TX"/>
+
+
+
+</LinearLayout>
+
+
